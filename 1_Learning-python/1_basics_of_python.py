@@ -229,22 +229,22 @@ print(str1.endswith("Akash")) # True
 
 
 # replace
-print(str1.replace("Akash", "Arya")) # My name is Arya
+print(str1.replace("Akash", "Arya"))        # My name is Arya
 
 
 # split and join
-words = str1.split() # ['My', 'name', 'is', 'Akash']
+words = str1.split()                # ['My', 'name', 'is', 'Akash']
 print(words)
-print("-".join(words)) # My-name-is-Akash
-print("a,b,c".split(",")) # ['a', 'b', 'c']
+print("-".join(words))              # My-name-is-Akash
+print("a,b,c".split(","))           # ['a', 'b', 'c']
 
 
 # checking (True / False)
-print("Akash".isalpha()) # True (only letters)
-print("2024".isdigit()) # True (only digits)
-print("Akash19".isalnum()) # True (letters + digits)
-print("ABC".isupper()) # True
-print("abc".islower()) # True
+print("Akash".isalpha())            # True (only letters)
+print("2024".isdigit())             # True (only digits)
+print("Akash19".isalnum())          # True (letters + digits)
+print("ABC".isupper())              # True
+print("abc".islower())              # True
 
 
 # formatting
@@ -255,5 +255,5 @@ print(f"My name is {name} and age is {age}") # f-string (most used)
 
 
 # padding
-print("42".zfill(5)) # 00042
-print("Akash".center(11, "*")) # ***Akash***
+print("42".zfill(5))                    # 00042
+print("Akash".center(11, "*"))          # ***Akash***
